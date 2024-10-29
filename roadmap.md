@@ -138,6 +138,41 @@
    - Design patterns
    - Dependency injection
 
+## 7. TypeScript (7th Priority - 3-4 months)
+- Why 7th:
+
+   - Superset of JavaScript
+   - Strongly-typed syntax
+   - Used extensively in modern web development
+
+### TypeScript Learning Path
+
+1. **Basics (2-3 weeks)**
+
+   - TypeScript syntax and types
+   - Basic type annotations
+   - Interfaces and classes
+   - Type inference
+   - Compiler options
+
+
+2. **Intermediate (4-5 weeks)**
+
+   - Advanced types (unions, intersections, generics)
+   - Decorators
+   - Modules and namespaces
+   - Tooling (TSLint, Prettier)
+   - TypeScript with React
+
+
+3. **Advanced (6-8 weeks)**
+
+   - Type-driven development
+   - Asynchronous programming
+   - Testing (Jest, Enzyme)
+   - Performance optimization
+   - Migration from JavaScript
+
 ## General Tips
 - Dedicate 2-3 hours daily
 - Build practical projects
