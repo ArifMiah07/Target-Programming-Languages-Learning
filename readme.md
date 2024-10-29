@@ -30,6 +30,8 @@ This learning path is meticulously crafted for developers who have experience wi
 4. **Java**
 5. **C++**
 6. **C#**
+7. **TypeScript**
+
 
 ## 📚 Prerequisites
 
@@ -74,6 +76,8 @@ Total Duration: 18-20 months
 ├── Java              [ 4-5 months  ]
 ├── C++               [ 4-5 months  ]
 └── C#                [ 3-4 months  ]
+└── Typescript        [ 3-4 months  ]
+
 ```
 
 ## 🚦 Getting Started
