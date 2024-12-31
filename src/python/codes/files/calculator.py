@@ -65,4 +65,41 @@ print(f"result3: {result3}")
 
 # With Python, it is possible to use the ** operator to calculate powers [1]:
 
-# pValA =  
+powA = 3 ** 3
+powB = 5 ** 2 
+
+calPowA = powA ** powB
+
+print(f"power_result1: {calPowA}")
+print(f"power_result1", {calPowA})
+
+# The equal sign (=) is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt:
+
+assAValueIntoAVariable1 = 6
+assAValueIntoAVariable2 = 8
+
+assAValueIntoAVariableResult1 = assAValueIntoAVariable1 * assAValueIntoAVariable2
+
+print(f"assAValueIntoAVariable1: {assAValueIntoAVariable1}")
+print(f"assAValueIntoAVariable2: {assAValueIntoAVariable2}")
+print(f"assAValueIntoAVariableResult1: {assAValueIntoAVariableResult1}")
+
+# If a variable is not “defined” (assigned a value), trying to use it will give you an error:
+# n #calculator.py", line 89, in <module> # n # NameError: name 'n' is not defined
+
+
+# There is full support for floating point; operators with mixed type operands convert the integer operand to floating point:
+mixTypeA = 4 * 3.75 - 1
+mixTypeB = 3.1416 * 2.71 - 1.1414 + 1.618
+mixTypeC = mixTypeA / mixTypeB
+print(f"mixTypeA: {mixTypeA}")
+print(f"mixTypeB: {mixTypeB}")
+print(f"mixTypeC: {mixTypeC}")
+
+# In interactive mode, the last printed expression is assigned to the variable _. This means that when you are using Python as 
+# a desk calculator, it is somewhat easier to continue calculations, for example:
+
+
+
+
+
