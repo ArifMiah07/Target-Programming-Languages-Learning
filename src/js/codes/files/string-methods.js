@@ -126,17 +126,20 @@
 
 // console.log(`The character at index ${Math.floor(Math.random() * say.length)} is ${say.charAt(Math.floor(Math.random() * say.length))}`);
 
+const text = "Hello, Word! Im learning a new programming language name Red. I am a beginner.";
 
 function strContent(str = "hi there"){
+    console.log(`str length is :`, str.length);
     for(let i = 0; i < str.length; i++){
-        // console.log(str.charAt(i));
+        console.log(`fr: ${i} is ${str.charAt(i)}`);
+        console.log(`charAt: ${str.charCodeAt(i)} is ${str.charAt(i)}`);
+
         // console.log(str[i] + 1);
-        return i
     }
     return str;
 }
 
-console.log(strContent("Hello, Word! Im learning a new programming language name Red. I am a beginner."));
+console.log(strContent(text));
 
 //charCodeAt()
 //"ABC".charCodeAt(0); // returns 65
