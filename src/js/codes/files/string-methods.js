@@ -157,18 +157,18 @@ console.log(alphaNumeric);
 // results in ['a', 'b', 'c', 1, 2, 3]
 
 
-//endsWith()
-const str = "To be, or not to be, that is the question.";
+// //endsWith()
+// const str = "To be, or not to be, that is the question.";
 
-console.log(str.endsWith("question.")); // true
-console.log(str.endsWith("to be")); // false
-console.log(str.endsWith("to be", 19)); // true
+// console.log(str.endsWith("question.")); // true
+// console.log(str.endsWith("to be")); // false
+// console.log(str.endsWith("to be", 19)); // true
 
 
-//includes()
-const arr = ["a", "b", "c"];
+// //includes()
+// const arr = ["a", "b", "c"];
 
-arr.includes("c", 3); // false
-arr.includes("c", 100); // false
+// arr.includes("c", 3); // false
+// arr.includes("c", 100); // false
 
 
