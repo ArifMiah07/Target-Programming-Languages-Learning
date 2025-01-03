@@ -147,3 +147,14 @@ console.log(strContent(text));
 const word = "ABCD";
 const ranIn = Math.floor(Math.random() * word.length);
 console.log(`charAt ranIn:  ${word.charCodeAt(ranIn)} is ${word.charAt(ranIn)}`);
+
+
+const letters = ["a", "b", "c"];
+const numbers = [1, 2, 3];
+
+const alphaNumeric = letters.concat(numbers);
+console.log(alphaNumeric);
+// results in ['a', 'b', 'c', 1, 2, 3]
+
+
+
