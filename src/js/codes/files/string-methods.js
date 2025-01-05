@@ -70,7 +70,22 @@ const charList = ['a', 'g', 'e', 'e']
 const str = 'hellloe mememejjjsdfjjsdsdkjklsd syytertiubbry gyeri y    ggdfg' 
 
 const newArr = charList.concat(numberList, str);
-console.log(newArr);
+// console.log(newArr);
+
+const textNo1 = 'Wqw sdh ajw uet'
+console.log(textNo1.length);
+let sum = 0
+const t = 'Hi'
+let c = []
+for(let i = 0; i < textNo1.length; i++){
+    const code = textNo1.charCodeAt(i)
+    console.log(t.concat(code))
+    c = c + t.concat(code)
+    sum = sum + code;
+    
+}
+console.log(sum, t, c)
+
 
 // const letters = ["a", "b", "c"];
 // const numbers = [1, 2, 3];
