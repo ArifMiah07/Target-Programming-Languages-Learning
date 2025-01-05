@@ -124,6 +124,32 @@
             background-color: #D1EB9C;
             clip-path: polygon(0 40%, 100% 40%, 100% 60%, 0 60%);
         }
+        .ceil-chid-shape {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .react-div {
+            position: relative;
+            width: 141.42px;
+            height: 141.42px;
+            background-color: #D1EB9C;
+        }
+        
+        .triangle-div {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-bottom: 100px solid blue; /* Triangle color */
+            transform: rotate(-45deg);
+            bottom: -50px; /* Aligns the triangle perfectly */
+            left: 20px; /* Adjust horizontal position */
+        }
+        
+        
     </style>
 </head>
 <body>
@@ -131,7 +157,7 @@
         <h1>Game Simulation</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#"><div class="home">Home</div></a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -142,7 +168,14 @@
             <!-- ceil -->
             <div class="ceil">
                 <div class="ceil-chid">
-                    a
+                    <div class="ceil-chid-shape">
+                        <div class="react-div">
+
+                        </div>
+                        <div class="triangle-div">
+
+                        </div>
+                    </div>
                 </div>
                 <div class="ceil-chid">
                     b
