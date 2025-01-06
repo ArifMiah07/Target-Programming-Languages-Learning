@@ -79,12 +79,12 @@ const t = 'Hi'
 let c = []
 for(let i = 0; i < textNo1.length; i++){
     const code = textNo1.charCodeAt(i)
-    console.log(t.concat(code))
+    // console.log(t.concat(code))
     c = c + t.concat(code)
     sum = sum + code;
     
 }
-console.log(sum, t, c)
+console.log(c)
 
 
 // const letters = ["a", "b", "c"];
