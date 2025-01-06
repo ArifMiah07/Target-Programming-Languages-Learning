@@ -59,3 +59,4 @@ rl.question('Enter three numbers separated by spaces: ', (input) => {
 
 //     rl.close();
 // });
+

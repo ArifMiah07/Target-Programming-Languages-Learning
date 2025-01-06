@@ -2,4 +2,6 @@
     [x] number
     [x] string
         [] string methods
-    [ ] list 
+    [x] list
+    [ ] series
+     
