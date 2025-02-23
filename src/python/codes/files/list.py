@@ -151,4 +151,4 @@ print(mix_number)
 print(mix_var)
 
 print(mix_var[0])
-print(mix_var[0][1])
+print(mix_var[0][0])
